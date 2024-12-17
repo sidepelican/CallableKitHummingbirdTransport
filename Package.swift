@@ -9,7 +9,7 @@ let package = Package(
         .library(name: "CallableKitHummingbirdTransport", targets: ["CallableKitHummingbirdTransport"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/sidepelican/CallableKit.git", from: "2.0.0-alpha.1"),
+        .package(url: "https://github.com/sidepelican/CallableKit.git", from: "2.0.0"),
         .package(url: "https://github.com/hummingbird-project/hummingbird.git", from: "2.5.0"),
     ],
     targets: [
